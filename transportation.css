@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #fff;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.navbar{
+    display: flex;
+}
+.contact{
+    display: flex;
+}
+.sp1::before{
+    content:"\2709";
+font-family: FontAwesome;
+color: red;
+font-size: 13px;
+position: absolute;
+top: 10px;
+left: 0;
+margin: 33px 690px;
+}
+.sp2::before{
+    content:"\f095";
+font-family: FontAwesome;
+color: red;
+font-size: 11px;
+
+position: absolute;
+top: 10px;
+left: 0;
+margin: 33px 900px;
+}
+.btn1{
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #FF3414;
+    color: #FF3414;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.btn1:hover{
+    background-color: #FF3414;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navigation{
+    display: flex;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 15px 29px;
+    color: grey;
+    font-size: 19px;
+}
+ul li:hover{
+    color: #FF3414;
+    cursor: pointer;
+}
+
+
+
+.sp3::before{
+content:"\f002";
+font-family: FontAwesome;
+color: white;
+font-size: 18px;
+background-color: red;
+padding: 8px 8px;
+border-radius: 50%;
+position: absolute;
+top: 10px;
+left: 0;
+margin: 2px 1190px;
+}
+
+#page::before{
+content:"\f078";
+font-family: FontAwesome;
+color: grey;
+font-size: 11px;
+position: absolute;
+top: 10px;
+left: 0;
+margin: 10px 470px;
+}
+#blog::before{
+content:"\f078";
+font-family: FontAwesome;
+color: grey;
+font-size: 11px;
+position: absolute;
+top: 10px;
+left: 0;
+margin: 10px 566px;
+}
+
+.logistic::before{
+    content: "";
+    background: url('https://preview.colorlib.com/theme/logistico/img/banner/banner.png.webp') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(60%);
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    padding: 15px 40px;
+    margin-top: 25px;
+    background-color: #ff3414;
+    color: white;
+    border: 1px solid #ff3414;
+    font-size: 17px;
+}
+ .p1:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.boxes{
+    display:flex;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 45px;
+    width: 310px;
+    padding: 50px 10px;
+}
+.box1 img{
+    position: relative;
+    right: 122px;
+    padding-top: 10px;
+}
+
+.box1:hover{
+    box-shadow: 3px 3px 3px 3px grey;
+    cursor: pointer;
+    
+}
+.offer{
+    margin-top: 100px;
+    background-color: #F5FBFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    margin:50px 30px;
+}
+.item1 h1{
+    margin-top: 8px;
+}
+.item1 p{
+    margin-top: 8px;
+    color: grey;
+}
+
+.secure::before{
+    content:"";
+    background: url('https://preview.colorlib.com/theme/logistico/img/banner/contact_bg.png.webp') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    filter: brightness(40%);
+}
+.secure{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-content: center; */
+}
+.info{
+    color: white;
+    padding: 130px 100px;
+}
+.info h1{
+    font-size: 3.2rem;
+}
+.info p{
+    font-size: 20px;
+    width: 620px;
+    margin-top: 5px;
+}
+.secure .s{
+    padding: 15px 80px;
+    border-radius: 20px;
+    background-color: #FF3414;
+    color: white;
+    font-size: 23px;
+    border: 1px solid #FF3414;
+}
+.button{
+    padding-left: 120px;
+}
+ .s:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image::before{
+    content: '';
+    background-color: red;
+    position: absolute;
+    width: 35%;
+    height: 83%;
+    margin-left: 20px;
+    margin-top: 16px;
+    z-index: -1;
+}
+
+.point1::before{
+    content: '\f069';
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 50%;
+    color: red;
+    font-size: 11px;
+    z-index: 1;
+margin: 2255px 707px;
+}
+.point2::before{
+    content: '\f069';
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 50%;
+    color: red;
+    font-size: 11px;
+    z-index: 1;
+    margin: 2297px 707px;
+}
+
+.point3::before{
+    content: '\f069';
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 50%;
+    color: red;
+    font-size: 11px;
+    z-index: 1;
+    margin: 2342px 707px;
+}
+button.col{
+    width: 160px;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid #FF3414;
+    color: #FF3414;
+    background-color: transparent;
+}
+ .col:hover{
+    background-color: #FF3414;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.data::before{
+    content: '';
+    background-color: #F5FBFF;
+    position: absolute;
+    width: 80%;
+    height: 25%;
+    z-index: -1;
+
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 60px;
+}
+
+.estimate{
+    background: url('https://preview.colorlib.com/theme/logistico/img/banner/testmonial.png.webp') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+}
+.es1::before{
+    content: '';
+    background: url('https://preview.colorlib.com/theme/logistico/img/banner/Estimate_bg.png.webp') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(80%);
+}
+.es2::before{
+    content: '';
+    background-color: #001D38;
+    position: absolute;
+    width: 100%;
+    height: 101%;
+    opacity: 0.94;
+    z-index: -1;
+}
+.es2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 68px;
+}
+.it1 .i1{
+    width: 230px;
+    height: 40px;
+    background-color: #FF3414;
+    color: white;
+    font-size: 18px;
+    border:2px solid #FF3414;
+    border-radius: 12px;
+}
+.i1:hover{
+    background-color: transparent;
+    color: #FF3414;
+    cursor: pointer;
+}
+.inputs input{
+    background: transparent;
+    width: 320px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+.inputs .in1{
+    position: relative;
+    right: -18px;
+}
+.texta {
+    display: flex;
+    flex-direction: column;
+}
+.texta textarea{
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    margin-left: 20px;
+
+}
+.texta button{
+    width: 730px;
+    height: 55px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: #FF3414;
+    border: 1px solid #FF3414;
+}
+#btn:hover{
+    background-color: #FF3414;
+    color: white;
+    cursor: pointer;
+}
+.logistico{
+    background-color: #F5FBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+}
+#icon1::before{
+content:"\f09a";
+font-family: FontAwesome;
+color: white;
+background-color: blue;
+padding: 8px;
+border-radius: 50%;
+font-size: 14px;
+position: relative;
+top: 5px;
+margin-left: 10px;
+}
+#icon2::before{
+content:"\f0d5";
+font-family: FontAwesome;
+color: white;
+background-color: rgb(202, 77, 77);
+padding: 8px;
+border-radius: 50%;
+font-size: 14px;
+position: relative;
+top: 5px;
+margin-left: 10px;
+}
+#icon3::before{
+content:"\f099";
+font-family: FontAwesome;
+color: white;
+background-color: rgb(67, 67, 214);
+padding: 8px;
+border-radius: 50%;
+font-size: 14px;
+position: relative;
+top: 5px;
+margin-left: 10px;
+}
+#icon4::before{
+content:"\f167";
+font-family: FontAwesome;
+color: white;
+background-color: red;
+padding: 8px;
+border-radius: 50%;
+font-size: 14px;
+position: relative;
+top: 5px;
+margin-left: 10px;
+}
+.locations{
+    display: flex;
+}
+footer{
+    background-color: white;
+}
+.foots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot1{
+    display:flex;
+    flex-direction: column;
+    margin: 0px 60px;
+}
+.sub{
+    display: flex;
+}
+.sub input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.sub button{
+    width: 100px;
+    height: 35px;
+    background-color:#FF3414 ;
+    border: 1px solid #FF3414;
+    color: white;
+    border-radius: 12px;
+    margin: 9px -120px;
+}
